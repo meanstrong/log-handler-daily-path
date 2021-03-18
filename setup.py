@@ -7,6 +7,8 @@ import os
 
 from setuptools import setup
 
+import log_handler_daily_path
+
 
 cwd = os.path.abspath(os.path.dirname(__file__))
 
@@ -16,8 +18,8 @@ with io.open(os.path.join(cwd, "README.md"), encoding="utf-8") as f:
 
 setup(
     name="log-handler-daily-path",
-    version="0.0.2",
-    py_modules=["daily_rotating_path_hander"],
+    version=log_handler_daily_path.__version__,
+    py_modules=["log_handler_daily_path"],
     description="This module is a log handler by daily path rotating.",
     long_description=long_description,
     long_description_content_type="text/markdown",

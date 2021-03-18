@@ -3,6 +3,8 @@ import shutil
 from datetime import date
 from logging.handlers import TimedRotatingFileHandler
 
+__version__="0.0.2"
+
 
 class DailyRotatingPathHander(TimedRotatingFileHandler):
     """ 每日日志路径轮换

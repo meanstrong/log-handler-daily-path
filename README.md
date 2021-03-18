@@ -2,6 +2,7 @@
 
 ## About
 这是一个日志路径每日轮转模块，按照指定方式每日切换日志输出路径。  
+日志输出的路径为： { base_path }/{ yyyy-MM-dd }/{ filename }
 
 ## Requirements
 - Python3
@@ -16,7 +17,7 @@ pip install log-handler-daily-path
 ```python
 import logging
 
-from daily_rotating_path_hander import DailyRotatingPathHander
+from log_handler_daily_path import DailyRotatingPathHander
 
 
 logging.basicConfig(level=logging.DEBUG)
