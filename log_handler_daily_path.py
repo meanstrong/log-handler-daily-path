@@ -3,7 +3,7 @@ import shutil
 from datetime import date
 from logging.handlers import TimedRotatingFileHandler
 
-__version__="0.0.2"
+__version__="0.0.3"
 
 
 class DailyRotatingPathHander(TimedRotatingFileHandler):
