@@ -1,5 +1,8 @@
 # log-handler-daily-path - 一个每日切换日志路径模块
 
+[![image](https://img.shields.io/pypi/v/log-handler-daily-path.svg)](https://pypi.org/project/log-handler-daily-path/)
+[![image](https://img.shields.io/pypi/l/log-handler-daily-path.svg)](https://pypi.org/project/log-handler-daily-path/)
+
 ## About
 这是一个日志路径每日轮转模块，按照指定方式每日切换日志输出路径。  
 日志输出的路径为： { base_path }/{ yyyy-MM-dd }/{ filename }
